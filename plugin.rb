@@ -7,8 +7,8 @@
 # url: TODO
 # required_version: 2.7.0
 
-:BLOG_HOST = Rails.env.development? ? "onion.tryp.digital"
-:BLOG_DISCOURSE = Rails.env.development? ? "tryp226d7fpfih3tx6i2gfawp4fedzwipunedekpgigpcfiy3pav6wyd.onion" 
+::BLOG_HOST = "onion.tryp.digital"
+::BLOG_DISCOURSE = "tryp226d7fpfih3tx6i2gfawp4fedzwipunedekpgigpcfiy3pav6wyd.onion" 
 
 enabled_site_setting :plugin_name_enabled
 
